@@ -1,0 +1,2 @@
+
+  setSales([...cart])
