@@ -22,7 +22,7 @@ console.log(userCredentials,"new");
     /* Product Remove Condition Using A filter*/
   const removeTask = (x)=>{
     const newTask = userCredentials.filter((item)=> item.id !==x)
-    setUserCredentials(newTask)
+    setUserCredentials(newTask) 
     newUser.cart = newTask
   }
 
